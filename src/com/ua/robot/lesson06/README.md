@@ -1,7 +1,7 @@
-Створити програму для виведення чисел від 1 до 10
+Write a program that displays numbers 1 to 10
 
-Показати всі парні числа в діапазоні від 1 до 100
+Display all even numbers in the range 1 to 100
 
-Знайти факторіал числа 7
+Find the factorial of the number 7
 
-Вивести числа фібоначчі до 100 (значення самого числа не повинно перевищувати 100)
+Display Fibonacci Sequence up to 100 (the value of the number itself should not exceed 100)
