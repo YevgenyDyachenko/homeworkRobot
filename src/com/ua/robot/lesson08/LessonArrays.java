@@ -7,12 +7,14 @@ public class LessonArrays
     public static void main(String[] args)
     {
 
-       int arrayCapacity = 0;
+       int arrayCapacity = 10;
 
        int [] myArray =  arrayOfRandomNumbers(arrayCapacity);
         printArray(myArray);
         System.out.printf("The smallest number in myArray is %d\n", minNumberInArray(myArray));
         System.out.printf("The biggest number in myArray is %d\n", maxNumberInArray(myArray));
+        System.out.format("The average is: %.3f\n", averageOfArray(myArray));
+        System.out.format("The sum of the elements is: %d\n", sumOfElements(myArray));
 
 
     }
@@ -34,9 +36,8 @@ public class LessonArrays
 
     static void printArray(int [] arr)
     {
-        for (int i = 0; i<arr.length; i++)
-        {
-            System.out.print(arr[i] + " ");
+        for (int j : arr) {
+            System.out.print(j + " ");
         }
         System.out.println();
 
@@ -48,6 +49,7 @@ public class LessonArrays
         if (arr.length == 0)
         {
             System.out.println("An array is empty");
+            return -1;
 
         }
         int smallest=arr[0];
@@ -70,6 +72,7 @@ public class LessonArrays
         if (arr.length == 0)
         {
             System.out.println("An array is empty");
+            return -1;
 
         }
         int biggest=arr[0];
@@ -85,21 +88,27 @@ public class LessonArrays
 
     }
 
-    static int averageOfArray(int[] arr)
+    static double averageOfArray(int[] arr)
     {
-        if (arr.length == 0)
-        {
-            System.out.println("An array is empty");
 
-        }
-        int summ = 0;
-        for (int i = 1; i<arr.length; i++)
-        {
-            summ+=arr[i];
+        double total =  sumOfElements(arr);
 
-        }
-        return summ/arr.length;
+        return total/arr.length;
 
     }
+
+    static int sumOfElements(int[] arr)
+    {
+
+        int sum=0;
+        for (int j : arr) {
+            sum += j;
+
+        }
+        return sum;
+
+    }
+
+
 
 }
