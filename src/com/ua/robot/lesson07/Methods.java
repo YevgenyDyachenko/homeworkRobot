@@ -50,13 +50,13 @@ public class Methods {
 
     void printAsterisk(int capacity){
         char charSymbol = (char)42;
-        for (int i=0; i<capacity; i++) System.out.print(charSymbol + " ");
+        for (int i=0; i<capacity; i++) {System.out.print(charSymbol + " ");}
         System.out.println();
     }
 
     void printSymbol(int capacity, String s){
-        for (int i=0; i<capacity; i++)
-            System.out.print(s + " ");
+        for (int i=0; i<capacity; i++){
+            System.out.print(s + " ");}
         System.out.println();
     }
 
