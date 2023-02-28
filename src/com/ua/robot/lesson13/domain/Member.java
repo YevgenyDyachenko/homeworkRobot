@@ -1,4 +1,4 @@
-package com.ua.robot.lesson14.domain;
+package com.ua.robot.lesson13.domain;
 
 public abstract class Member extends Person {
     protected String university;

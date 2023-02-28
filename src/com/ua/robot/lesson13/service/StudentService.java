@@ -1,7 +1,7 @@
-package com.ua.robot.lesson14.service;
+package com.ua.robot.lesson13.service;
 
-import com.ua.robot.lesson14.domain.Student;
-import com.ua.robot.lesson14.repository.StudentMemoryRepository;
+import com.ua.robot.lesson13.domain.Student;
+import com.ua.robot.lesson13.repository.StudentMemoryRepository;
 
 public class StudentService {
     private static final String TABLE_FORMAT = "|%-5s |%-20s |%-10s |%-10.1f| %-10s | %-10s |";

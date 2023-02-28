@@ -1,8 +1,8 @@
-package com.ua.robot.lesson14.service;
+package com.ua.robot.lesson13.service;
 
 
-import com.ua.robot.lesson14.domain.Teacher;
-import com.ua.robot.lesson14.repository.TeacherMemoryRepository;
+import com.ua.robot.lesson13.domain.Teacher;
+import com.ua.robot.lesson13.repository.TeacherMemoryRepository;
 
 public class TeacherService {
 

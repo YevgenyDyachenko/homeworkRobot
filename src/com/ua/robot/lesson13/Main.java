@@ -1,8 +1,7 @@
-package com.ua.robot.lesson14;
+package com.ua.robot.lesson13;
 
-import com.ua.robot.lesson14.domain.Student;
-import com.ua.robot.lesson14.service.StudentService;
-import com.ua.robot.lesson14.service.TeacherService;
+import com.ua.robot.lesson13.service.StudentService;
+import com.ua.robot.lesson13.service.TeacherService;
 
 public class Main {
 

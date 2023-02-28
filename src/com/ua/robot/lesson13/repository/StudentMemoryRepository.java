@@ -1,6 +1,6 @@
-package com.ua.robot.lesson14.repository;
+package com.ua.robot.lesson13.repository;
 
-import com.ua.robot.lesson14.domain.Student;
+import com.ua.robot.lesson13.domain.Student;
 
 import java.util.Random;
 
