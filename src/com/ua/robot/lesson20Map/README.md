@@ -1,0 +1,1 @@
+A Map should contain information about 10 words in Ukrainian and its translation into: English, Japanese, German. When the user gives the Map a word in Ukrainian, you need to get a translation into these 3 languages as a result
