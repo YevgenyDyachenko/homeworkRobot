@@ -1,0 +1,7 @@
+Name:                                         JamesGosling
+Number #1:                                    6994
+Number #2:                                    566
+Addition of your numbers will give:           7560
+Subtracting the second number from the first: 6428
+Multiplication of two numbers:                3958604
+Division of the first number by the second:   12.356890459363958
