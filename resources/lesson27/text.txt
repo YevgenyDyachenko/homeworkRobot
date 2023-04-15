@@ -1,0 +1,1 @@
+Java program illustrating ready() and close() method
