@@ -1,0 +1,4 @@
+mark
+dnf
+shsk
+sh
